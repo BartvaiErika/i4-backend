@@ -1,0 +1,24 @@
+Backend specialization
+week 1 - reflection
+
+You are allowed to use internet resources but you’re not allowed to see other participants’ code.
+Hand in the reflection before the specified deadline.
+Writing unit tests is mandatory for every piece of logic of your applications.
+Exercise
+The owner of a fruit shop just received a delivery of fresh fruits and wants to display it in the fruit counter.
+Develop a Java application with Lombok that reads the delivery.txt file and displays on the screen the output below.
+You should have at least the following classes:
+
+FileReader - reads the file
+Fruit - has a name and an amount
+Assistant - translates a list of fruit names into a list of fruit
+AssistantTest - tests the assistant methods
+FruitCounter - displays the list of fruits
+FruitShopApp - puts all pieces together
+
+
+These are all our tasteful fruits:
+8 Apple
+4 Watermelon
+7 Orange
+8 Banana
