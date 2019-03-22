@@ -1,0 +1,78 @@
+server:
+  port: 9001
+
+translation:
+  encoder:
+  - symbol: A
+    morsecode: .-
+  - symbol: B
+    morsecode: -...
+  - symbol: C",
+    morsecode: -.-.
+  - symbol: D",
+    morsecode: -..
+  - symbol: E",
+    morsecode: .
+  - symbol: F
+    morsecode: ..-.
+  - symbol: G
+    morsecode: --.
+  - symbol: H
+    morsecode: ....
+  - symbol: I
+    morsecode: ..
+  - symbol: J
+     morsecode: .---
+  - symbol: K
+    morsecode: -.-
+  - symbol: L
+    morsecode: .-..
+  - symbol: M
+    morsecode: --
+  - symbol: N
+    morsecode: -.
+  - symbol: O
+    morsecode: ---
+  - symbol: P
+    morsecode: .--.
+  - symbol: Q
+    morsecode: --.-
+  - symbol: R
+    morsecode: .-.
+  - symbol: S
+    morsecode: ...
+  - symbol: T
+    morsecode: -
+  - symbol: U
+    morsecode: ..-
+  - symbol: V
+    morsecode: ...-
+  - symbol: W
+    morsecode: .-
+  - symbol: X
+    morsecode: -..-
+  - symbol: Y
+    morsecode: -.--
+  - symbol: Z
+    morsecode: --..
+  - symbol: 0
+    morsecode: -----
+  - symbol: 1
+    morsecode: .----
+  - symbol: 2
+    morsecode: ..---
+  - symbol: 3
+    morsecode: ...--
+  - symbol: 4
+    morsecode: ....-
+  - symbol: 5
+    morsecode: .....
+  - symbol: 6
+    morsecode: -....
+  - symbol: 7
+    morsecode: --...
+  - symbol: 8
+    morsecode: ---..
+  - symbol: 9
+    morsecode: ----.
+
