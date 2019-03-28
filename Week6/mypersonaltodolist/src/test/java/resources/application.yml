@@ -6,17 +6,17 @@ spring:
 server:
   port: 9000
 
-  dataset:
-    todos:
-    - title: teleconference
-      done: false
-    - title: call mom
-      done: false
-    - title: projectmeeting
-      done: false
-    - title: projectpresentation
-      done: false
-    - title: interview
-      done: false
-    - title: reflection
-      done: false
+dataset:
+  todos:
+  - title: teleconference
+    done: false
+  - title: call mom
+    done: false
+  - title: projectmeeting
+    done: false
+  - title: projectpresentation
+    done: false
+  - title: interview
+    done: false
+  - title: reflection
+    done: false
