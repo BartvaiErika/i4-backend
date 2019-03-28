@@ -1,0 +1,26 @@
+server:
+  port: 9006
+
+domain:
+  patient
+  - id
+    name
+    symptoms
+    diagnosis
+
+medicaldiagnosis:
+  - symptoms: gumsreduction
+    diagnosis: ginvitis
+    treatment: pharmacy
+  - symptoms: gumsbleeding
+    diagnosis: paradontose
+    treatment: pharmacy
+  - symptoms: heartache
+    diagnosis: infarct
+    treatment: bed
+  - symptoms: cough
+    diagnosis: allergy
+    treatment: pharmacy
+  - symptoms: stomagepain
+    diagnosis: appendix
+    treatment: bed
