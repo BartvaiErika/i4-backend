@@ -1,20 +1,20 @@
 accountancy:
   server:
     url: 9005
-
+    
 server:
   port: 9004
 
 domain:
   patient
-  - id
-    name
-    symptoms
-    diagnosis
-    treatment
+- id
+  name
+  symptoms
+  diagnosis
+  treatment
 
 prescription:
-  coughing: foster
+  astma: aspirin
 
 
 

@@ -3,11 +3,11 @@ server:
 
 domain:
   patient
-- id
-  name
-  symptoms
-  diagnosis
-  treatment
+  - id
+    name
+    symptoms
+    diagnosis
+    treatment
 
 medicaldiagnosis:
 - symptoms: gumsreduction
