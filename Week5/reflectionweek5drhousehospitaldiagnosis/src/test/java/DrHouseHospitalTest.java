@@ -30,6 +30,6 @@ public class DrHouseHospitalTest {
                 .symptoms("fractura")
                 .diagnose("lupus")
                 .build();
-        Assertions.assertEquals("lupus",patient.getDiagnose());
+        Assertions.assertEquals("lupus", patient.getDiagnose());
     }
 }

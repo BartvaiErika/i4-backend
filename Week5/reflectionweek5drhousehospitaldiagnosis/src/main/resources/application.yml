@@ -1,6 +1,13 @@
 server:
   port: 9006
 
+bed:
+  server:
+    url: http://localhost:9003
+pharmacy:
+  server:
+    url: http://localhost:9004
+
 domain:
   patient
   - id
@@ -9,18 +16,18 @@ domain:
     diagnosis
 
 medicaldiagnosis:
-  - symptoms: gumsreduction
-    diagnosis: ginvitis
-    treatment: pharmacy
-  - symptoms: gumsbleeding
-    diagnosis: paradontose
-    treatment: pharmacy
-  - symptoms: heartache
-    diagnosis: infarct
-    treatment: bed
-  - symptoms: cough
-    diagnosis: allergy
-    treatment: pharmacy
-  - symptoms: stomagepain
-    diagnosis: appendix
-    treatment: bed
+- symptoms: gumsreduction
+  diagnosis: ginvitis
+  treatment: pharmacy
+- symptoms: gumsbleeding
+  diagnosis: paradontose
+  treatment: pharmacy
+- symptoms: heartache
+  diagnosis: infarct
+  treatment: bed
+- symptoms: cough
+  diagnosis: allergy
+  treatment: pharmacy
+- symptoms: stomagepain
+  diagnosis: appendix
+  treatment: bed
