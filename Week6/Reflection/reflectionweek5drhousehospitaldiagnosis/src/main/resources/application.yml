@@ -1,12 +1,19 @@
 server:
   port: 9006
 
+bed:
+  server:
+    url: http://localhost:9003
+pharmacy:
+  server:
+    url: http://localhost:9004
+
 domain:
   patient
-- id
-  name
-  symptoms
-  diagnosis
+  - id
+    name
+    symptoms
+    diagnosis
 
 medicaldiagnosis:
 - symptoms: gumsreduction
