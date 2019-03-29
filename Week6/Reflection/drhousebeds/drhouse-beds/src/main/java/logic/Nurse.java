@@ -5,6 +5,12 @@ package logic;
 //Provides the Patient with a treatment
 //Later on: forwards the Patient to Accountancy
 
+import domain.Patient;
+import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
 @RestController
 @RequiredArgsConstructor
 public class Nurse {
@@ -12,19 +18,9 @@ public class Nurse {
     RestTemplate restTemplate;
 
     @Bean
-    public Patient treat(Patient patient) {
+    public Patient medicatePatient (Patient patient) {
         patient.setTreatment("Go into bed!");
         return patient;
     }
-
-
-//    public Patient provideTreatments(Patient patient) {
-//        Stream.of(patient)
-//                .map(Patient::getDiagnosis)
-//                .map(book::get)
-//                .peek(e -> patient.setTreatment(e))
-//                .forEach(e -> repository.save(patient));
-//        return patient;
-//    }
 
 }

@@ -12,17 +12,14 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/patients")
-
 public class PatientsEndPoint {
 
     private final RestTemplate restTemplate;
     private final String url = "http:localhost:9003";
     private Nurse nurse;
 
-
     @PostMapping("/name/{name}")
     public Patient respond(@RequestBody Patient patient) {
-        return nurse.treat(patient);
+        return nurse.medicatePatient(patient);
     }
 }
-

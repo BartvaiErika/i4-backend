@@ -1,5 +1,8 @@
 package logic;
-import org.junit.jupiter.api.AfterEach;
+
+import domain.Patient;
+import logic.Nurse;
+import persistence.PatientRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,17 +15,20 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 
 @SpringBootTest(webEnvironment = NONE)
 class NurseTest {
+
     @Autowired
     Nurse nurse;
+
+    @Autowired
+    PatientRepository repository;
 
     @MockBean
     RestTemplate restTemplate;
 
-    @Autowired
-    PatientRepository repository;
-    private Patient patient = Patient.builder()
+
+    Patient patient = Patient.builder()
             .name("David")
-            .diagnosis("asthma")
+            .diagnose("asthma")
             .build();
 
     @BeforeEach
@@ -32,5 +38,8 @@ class NurseTest {
 
     @Test
     void treat() {
+        Patient actualPatient = nurse.medicatePatient(patient) ;
+        assertThat(actualPatient).isNotNull();
+        assertThat(actualPatient.getTreatment()).isEqualTo("aspirin");
     }
 }
