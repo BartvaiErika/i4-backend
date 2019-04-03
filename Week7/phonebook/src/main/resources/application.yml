@@ -1,0 +1,11 @@
+server: 9000
+
+spring:
+  datasource:
+    url: jdbc:mysql//localhost/phonebook
+    username: nacsuser
+    password: nacs
+
+  jpa:
+    hibernate:
+      dll-auto: update
