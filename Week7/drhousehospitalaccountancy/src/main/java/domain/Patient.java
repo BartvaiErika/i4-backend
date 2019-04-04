@@ -1,4 +1,4 @@
-package persistence;
+package domain;
 
 import lombok.Data;
 
@@ -9,11 +9,15 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-public class CellPhone {
+public class Patient {
     @Id
     @GeneratedValue
     private long id;
 
-    @Column(unique = true)
-    private String number;
+    @Column(unique=true)
+    private String uuid; //(id that arrived from the DTO)
+
+    @Column(unique=true)
+    private String name;
+
 }

@@ -1,19 +1,19 @@
-package persistence;
+package domain;
 
 import lombok.Data;
+import org.springframework.data.annotation.Id;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
 
 @Data
 @Entity
-public class CellPhone {
+public class Address {
+
     @Id
     @GeneratedValue
     private long id;
 
-    @Column(unique = true)
-    private String number;
+    private String name;
+
 }

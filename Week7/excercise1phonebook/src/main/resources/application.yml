@@ -8,4 +8,4 @@ spring:
 
   jpa:
     hibernate:
-      dll-auto: update
+      dll-auto: up

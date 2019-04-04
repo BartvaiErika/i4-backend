@@ -13,7 +13,5 @@ public class Cloth {
     @GeneratedValue
     private long id;
 
-    @Id
-    @GeneratedValue
     private String name;
 }
