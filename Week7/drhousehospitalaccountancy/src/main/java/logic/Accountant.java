@@ -1,6 +1,7 @@
 package logic;
 
 import domain.Invoice;
+import domain.Kind;
 import domain.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -35,8 +36,9 @@ public class Accountant {
         newInvoice.setPatient(patient);
         newInvoice.setPaid(false);
         newInvoice.setTimestamp(localDateTime);
-        newInvoice.setKind();
-        newInvoice.setProvided("MEDICINE");
+        Kind kind = new Kind();
+        newInvoice.setKind(kind);
+        newInvoice.setProvided(kind.setProvided());
         //newInvoice.setSymptoms();
         //newInvoice.setDiagnosis();
         invoiceRepository.save(newInvoice);

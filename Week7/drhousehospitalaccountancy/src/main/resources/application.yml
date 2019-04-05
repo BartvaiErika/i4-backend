@@ -1,4 +1,4 @@
-server: 9000
+server: 9005
 
 spring:
   datasource:
@@ -9,3 +9,4 @@ spring:
   jpa:
     hibernate:
       dll-auto: update
+
