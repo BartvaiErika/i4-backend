@@ -1,0 +1,20 @@
+Develop a Spring Boot app that fulfills the following points loading
+the information from a application.properties file:
+
+- Has a class that loads the word fantastic with @Value and test that it returns that word.
+
+- Has a class that loads the number 369 as Integer with @Value and test that it returns that number.
+
+- Has a class that loads the seven days of the week comma separated
+as a List of String with @Value and test that it returns the right days in the right order.
+
+- Has a class that loads a Map of String and Integer with @ConfigurationProperties
+that represents how many books are available in a book shop: 3 copies of Harry Potter,
+2 copies of The Foundation, 4 copies of The Lord of the Rings. Test that the right books were loaded
+and that their number of copies is right.
+
+- Has a class that loads one Sauna object with @ConfigurationProperties that has the availableSeats
+and temperature attributes. Test that the loaded object is correct.
+
+Has a class that loads a list of 3 Ballerina objects with @ConfigurationProperties
+that have each the following attributes: name and performance quality (number from 1 to 5).

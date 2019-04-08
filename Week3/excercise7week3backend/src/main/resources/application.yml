@@ -1,0 +1,37 @@
+creditcardissuer:
+  card:
+  - name: MasterCard
+    length: 16
+    starthWith: 51, 52, 53, 54, 55, 222100-272099
+    shouldNotStartWith: 222099, 2721,
+    isValid: true
+  - name: Visa
+    length: 13, 16, 19
+    starthWith: 4
+    shouldNotStartWith:
+    isValid: true
+  - name: VisaElectron
+    length:
+    starthWith: 4026, 417500, 4508, 4844, 4913, 4917
+    shouldNotStartWith:
+    isValid: true
+  - name: AmericanExpress
+    length: 15
+    starthWith: 34, 37
+    shouldNotStartWith:
+    isValid: true
+  - name: Discover
+    length: 6011, 622126-622925, 644, 645, 646, 647, 648, 649, 65
+    starthWith: 622125, 622926
+    shouldNotStartWith:
+    isValid: true
+  - name: Maestro
+    length: 16, 17, 18, 19
+    starthWith: 5018, 5020, 5038, 5893, 6304, 6759, 6761, 6762, 6763
+    shouldNotStartWith:
+    isValid: true
+  - name: InstantaPayment
+    length: 16
+    starthWith: 637, 638, 639
+    shouldNotStartWith:
+    isValid: true

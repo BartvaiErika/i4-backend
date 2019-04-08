@@ -16,6 +16,6 @@ public class Contact {
     @Column(unique=true)
     private String name;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
     private Address asdress;
 }

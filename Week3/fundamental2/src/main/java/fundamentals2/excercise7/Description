@@ -1,0 +1,34 @@
+Ex7 - Street basketball tournament
+Develop a Spring Boot app that displays on the screen a simple street basketball tournament.
+Read the street basketball teams together with its players from the application.yml file
+and load them into a List of BasketballTeam.
+Each BasketballTeam class has one name and a list of player names.
+
+Tournament sequence:
+All teams stand in the teams queue
+Two teams come into the court and play against each others
+One of those two teams wins randomly
+The winner goes back to the end of the teams queue
+When there is only one team left, the winner is announced.
+Unusual extra:
+You don’t need to write any tests for this exercise
+
+-------------------------------------
+Welcome to the street basketball tournament!
+These are the teams who signed up:
+Team: Gettin' Wiggy With It. | Players: Tomson, Gary, Peter
+Team: Better Call Gasol. | Players: Sam, Gasol, Lila
+Team: Adam's Family. | Players: Morticia, Wednesday, Gomez
+Team: Locker Room Talk. | Players: Sara, Leticia, Josh
+Team: Skyhookers. | Players: Samuel, Seth, Antonia
+-------------------------------------
+Gettin' Wiggy With It. plays vs Better Call Gasol.
+And Better Call Gasol. wins this match!
+Adam's Family. plays vs Locker Room Talk.
+And Locker Room Talk. wins this match!
+Skyhookers. plays vs Better Call Gasol.
+And Skyhookers. wins this match!
+Locker Room Talk. plays vs Skyhookers.
+And Locker Room Talk. wins this match!
+The tournament's winning team is Locker Room Talk. !!
+
