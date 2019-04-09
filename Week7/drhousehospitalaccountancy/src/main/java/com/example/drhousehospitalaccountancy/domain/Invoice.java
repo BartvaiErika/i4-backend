@@ -1,4 +1,4 @@
-package domain;
+package com.example.drhousehospitalaccountancy.domain;
 
 import lombok.Data;
 
@@ -11,7 +11,7 @@ import java.util.List;
 public class Invoice {
     @Id
     @GeneratedValue
-    private long id;
+    private Long id;
 
     @ManyToOne(cascade = CascadeType.ALL)
     private Patient patient;

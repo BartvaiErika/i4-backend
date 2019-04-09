@@ -1,5 +1,6 @@
 package com.example.social_network;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -17,6 +18,7 @@ public class Person {
     @Column(unique = true)
     private String name;
 
+    @JsonIgnore
     @ManyToMany(fetch = FetchType.EAGER)
     private List <Person> friends;
 

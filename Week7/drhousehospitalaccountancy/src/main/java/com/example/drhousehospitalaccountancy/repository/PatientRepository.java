@@ -1,6 +1,6 @@
-package repository;
+package com.example.drhousehospitalaccountancy.repository;
 
-import domain.Patient;
+import com.example.drhousehospitalaccountancy.domain.Patient;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

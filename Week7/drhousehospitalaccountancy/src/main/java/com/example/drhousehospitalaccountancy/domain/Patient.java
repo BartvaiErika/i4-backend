@@ -1,4 +1,4 @@
-package domain;
+package com.example.drhousehospitalaccountancy.domain;
 
 import lombok.Data;
 
@@ -12,7 +12,7 @@ import javax.persistence.Id;
 public class Patient {
     @Id
     @GeneratedValue
-    private long id;
+    private Long id;
 
     @Column(unique=true)
     private String uuid; //(id that arrived from the DTO)

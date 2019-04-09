@@ -1,11 +1,13 @@
-package logic;
+package com.example.drhousehospitalaccountancy.logic;
 
-import domain.Invoice;
+import com.example.drhousehospitalaccountancy.DTO.PatientDTO;
+import com.example.drhousehospitalaccountancy.domain.Invoice;
+import com.example.drhousehospitalaccountancy.repository.PatientRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import repository.InvoiceRepository;
+import com.example.drhousehospitalaccountancy.repository.InvoiceRepository;
 
 import java.util.List;
 
@@ -16,6 +18,12 @@ public class AccountantTest {
 
     @Autowired
     private InvoiceRepository invoiceRepository;
+
+    @Autowired
+    private PatientRepository patientRepository;
+
+    @Autowired
+    PatientDTO patientDTO;
 
     @Autowired
     private Invoice invoice;

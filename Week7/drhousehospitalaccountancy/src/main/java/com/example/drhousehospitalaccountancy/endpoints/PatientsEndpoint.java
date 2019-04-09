@@ -1,12 +1,9 @@
-package endpoints;
+package com.example.drhousehospitalaccountancy.endpoints;
 
-import domain.Patient;
+import com.example.drhousehospitalaccountancy.domain.Patient;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import repository.PatientRepository;
+import org.springframework.web.bind.annotation.*;
+import com.example.drhousehospitalaccountancy.repository.PatientRepository;
 
 import java.util.Random;
 import java.util.UUID;
@@ -18,12 +15,8 @@ public class PatientsEndpoint {
 
     private final PatientRepository patientRepository;
 
-//    POST a PatientDTO with id, name, symptoms, diagnosis
-//    and treatment or medicine to /patients ->
-//    Stores the Patient if it doesn’t exist,
-
     @PostMapping
-    Patient postPatient(UUID uuid) {
+    Patient postPatient(@RequestBody UUID uuid) {
         Random random = new Random();
         Patient patientDTO = patientRepository.findPatientToId(uuid);
         if (patientDTO.equals(null)) {
@@ -37,7 +30,7 @@ public class PatientsEndpoint {
 
 //    updates it if it already exists (based on the uuid)
     @PutMapping
-    Patient uodatePatient(UUID uuid) {
+    Patient uodatePatient(@RequestBody UUID uuid) {
         Random random = new Random();
         Patient patientDTO = patientRepository.findPatientToId(uuid);
         if (!patientDTO.equals(null)) {
