@@ -1,0 +1,8 @@
+dataset:
+  contacts:
+  - name: Mayer
+    address:
+      name: First Street 123
+  - name: Huber
+    address:
+      name: Second Street 456

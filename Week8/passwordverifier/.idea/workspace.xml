@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c37f677e-3cfc-4ead-a4a1-6a8ab78d75ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Week6/Reflection/drhousepharmacy/drhouse-pharmacy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week6/Reflection/drhousepharmacy/drhouse-pharmacy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week6/Reflection/reflectionweek6drhousepharmacy/drhouse-pharmacy/src/test/java/logic/ApothecaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week6/Reflection/reflectionweek6drhousepharmacy/drhouse-pharmacy/src/test/java/logic/ApothecaryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week7/excercise1phonebook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week7/excercise1phonebook/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week7/excercise1phonebook/src/main/java/Configuration/CorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week7/excercise1phonebook/src/main/java/Configuration/CorsConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week7/excercise1phonebook/src/main/java/domain/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week7/excercise1phonebook/src/main/java/domain/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week7/excercise1phonebook/src/main/java/domain/ContactRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week7/excercise1phonebook/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week7/excercise1phonebook/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week7/excercise1phonebook/src/test/java/communication/ContactConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week7/excercise1phonebook/src/test/java/communication/ContactEndpointTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week7/excercise1phonebook/src/test/java/communication/ContactManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/junit-workshop-timetravelers" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/junit-workshop-timetravelers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/week4programming/reflectionweek4" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/week4programming/reflectionweek4" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +16,7 @@
     <session id="-1523499512">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -142,7 +135,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554713095152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554715022372" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -203,9 +196,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="263" y="119" width="1657" height="961" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5219365" visible="true" weight="0.32774675" />
-      <window_info id="Structure" order="1" sideWeight="0.47806355" side_tool="true" visible="true" weight="0.32774675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5218447" visible="true" weight="0.32774675" />
+      <window_info id="Structure" order="1" sideWeight="0.47815534" side_tool="true" visible="true" weight="0.32774675" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -214,7 +208,7 @@
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4997233" weight="0.25566342" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4997233" visible="true" weight="0.19781554" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4997233" weight="0.19781554" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />

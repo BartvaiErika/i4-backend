@@ -1,0 +1,6 @@
+dataset:
+  personwithfriends:
+    name: max
+      friend: moritz
+  personwithoutfriend:
+    name: albandy

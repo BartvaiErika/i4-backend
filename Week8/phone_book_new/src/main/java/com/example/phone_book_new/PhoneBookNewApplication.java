@@ -1,0 +1,13 @@
+package com.example.phone_book_new;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PhoneBookNewApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(PhoneBookNewApplication.class, args);
+    }
+
+}
