@@ -20,10 +20,10 @@ public class Invoice {
     private Kind kind;
 
     @OneToMany(cascade = CascadeType.ALL)
-    private List<String> symptoms;
+    private String symptoms;
 
     @OneToMany(cascade = CascadeType.ALL)
-    private List<String> diagnosis;
+    private String diagnosis;
 
     @OneToOne(cascade = CascadeType.ALL)
     private String provided; //(either the treatment given or the medicine suggested)
