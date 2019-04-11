@@ -1,8 +1,10 @@
 package com.example.drhousehospitalaccountancy.logic;
 
+import com.example.drhousehospitalaccountancy.domain.Patient;
 import com.example.drhousehospitalaccountancy.dto.PatientDTO;
 import com.example.drhousehospitalaccountancy.domain.Invoice;
 import com.example.drhousehospitalaccountancy.repository.PatientRepository;
+import lombok.Setter;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,17 +25,15 @@ public class AccountantTest {
     private PatientRepository patientRepository;
 
     @Autowired
+    Accountant accountant;
+
+    @Setter
     PatientDTO patientDTO;
-
-    @Autowired
-    private Invoice invoice;
-
-    @Autowired
-    List<Invoice> invoices;
 
     @Before
     public void setUp() throws Exception {
         invoiceRepository.deleteAll();
+        patientRepository.deleteAll();
     }
 
     @Test
