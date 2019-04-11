@@ -1,11 +1,13 @@
 package com.example.drhousehospitalaccountancy.endpoints;
 
+import com.example.drhousehospitalaccountancy.dto.PatientDTO;
+import com.example.drhousehospitalaccountancy.domain.Invoice;
 import com.example.drhousehospitalaccountancy.domain.Patient;
+import com.example.drhousehospitalaccountancy.logic.InvoiceManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import com.example.drhousehospitalaccountancy.repository.PatientRepository;
 
-import java.util.Random;
 import java.util.UUID;
 
 @RestController
@@ -14,29 +16,32 @@ import java.util.UUID;
 public class PatientsEndpoint {
 
     private final PatientRepository patientRepository;
+    private final InvoiceManager invoiceManager;
+    private PatientDTO patientDTO;
 
     @PostMapping
     Patient postPatient(@RequestBody UUID uuid) {
-        Random random = new Random();
-        Patient patientDTO = patientRepository.findPatientToId(uuid);
-        if (patientDTO.equals(null)) {
-            patientDTO.setUuid(uuid.toString());
-            patientDTO.setName("Peterson");
-            patientDTO.setId(random.nextLong());
-            patientRepository.save(patientDTO);
+        Patient patient = patientRepository.findByUuid(uuid);
+        if (!patient.equals(null)) {
+            patientRepository.save(patient);
         }
-        return patientDTO;
+        return patient;
     }
 
-//    updates it if it already exists (based on the uuid)
+    @PostMapping("/{id}/invoice")
+    public Invoice createInvoice(Patient patient) {
+        String id = patient.getUuid();
+        return invoiceManager.createNewInvoice(id);
+    }
+
     @PutMapping
-    Patient uodatePatient(@RequestBody UUID uuid) {
-        Random random = new Random();
-        Patient patientDTO = patientRepository.findPatientToId(uuid);
+    Patient updatePatient(@RequestBody UUID uuid) {
+        Patient patient = patientRepository.findByUuid(uuid);
+        PatientDTO patientDTO = new PatientDTO();
         if (!patientDTO.equals(null)) {
-            patientDTO.setName("Peterson");
-            patientDTO.setId(random.nextLong());
+            patientDTO.setName(patient.getName());
+            patientDTO.setId(patient.getId().toString());
         }
-        return patientDTO;
+        return patient;
     }
 }

@@ -15,7 +15,7 @@ public class Patient {
     private Long id;
 
     @Column(unique=true)
-    private String uuid; //(id that arrived from the DTO)
+    private String uuid; //(id that arrived from the dto)
 
     @Column(unique=true)
     private String name;

@@ -1,6 +1,6 @@
 package com.example.drhousehospitalaccountancy.logic;
 
-import com.example.drhousehospitalaccountancy.DTO.PatientDTO;
+import com.example.drhousehospitalaccountancy.dto.PatientDTO;
 import com.example.drhousehospitalaccountancy.domain.Invoice;
 import com.example.drhousehospitalaccountancy.repository.PatientRepository;
 import org.junit.Before;

@@ -1,9 +1,8 @@
 package com.example.drhousehospitalaccountancy.logic;
 
-import com.example.drhousehospitalaccountancy.DTO.PatientDTO;
+import com.example.drhousehospitalaccountancy.dto.PatientDTO;
 import com.example.drhousehospitalaccountancy.domain.Invoice;
 import com.example.drhousehospitalaccountancy.domain.Kind;
-import com.example.drhousehospitalaccountancy.domain.Patient;
 import com.example.drhousehospitalaccountancy.repository.PatientRepository;
 import com.example.drhousehospitalaccountancy.repository.InvoiceRepository;
 import lombok.RequiredArgsConstructor;
@@ -62,14 +61,14 @@ public class Accountant {
     public Long nextInvoiceNumber() {
         Long invoiceNumber = Long.valueOf(0);
         List<Invoice> invoices = findAll();
-        Invoice  lastInvoice = new Invoice();
+//        Invoice  lastInvoice = new Invoice();
 //      for (invoice: invoices) {
 //            if (invoiceNumber < lastInvoice.getId())
 //                invoiceNumber = lastInvoice.getId();
 //       }
 //        return  invoiceNumber+1;
 
-        lastInvoice = invoices.stream()
+        Invoice lastInvoice = invoices.stream()
                 .max(Comparator.comparing(Invoice::getId))
                 .get();
         return lastInvoice.getId()+1;

@@ -1,4 +1,4 @@
-package com.example.drhousehospitalaccountancy.DTO;
+package com.example.drhousehospitalaccountancy.dto;
 
 import lombok.Data;
 import org.springframework.context.annotation.Configuration;

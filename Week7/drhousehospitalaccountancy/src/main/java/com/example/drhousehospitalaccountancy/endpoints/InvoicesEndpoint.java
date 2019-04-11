@@ -19,17 +19,11 @@ public class InvoicesEndpoint {
     private final InvoiceManager invoiceManager;
 
     //Calculates the cost of the treatment or medicine
-    @PutMapping("/invoices/{id}/cost")
+    @PutMapping("/{id}/cost")
     public void calculateCostsOfServices(@PathVariable long id, @PathVariable Kind kind) {
         accountant.calculateCosts(id, kind);
     }
 
-//  Creates an Invoice and stores it in the database
-    @GetMapping
-    public Invoice createInvoice(Patient patient) {
-        String id = patient.getUuid();
-        return invoiceManager.createNewInvoice(id);
-    }
 
 //   GET to /invoices -> returns all available Invoices.
     @GetMapping
@@ -38,7 +32,7 @@ public class InvoicesEndpoint {
     }
 
 //  PUT to /invoices/{id}/paid -> sets the Invoice with id as paid.
-    @PutMapping("/invoices/{id}/paid")
+    @PutMapping("/{id}/paid")
     public void setInvoicePaid(@PathVariable long id) {
         accountant.bookInvoicePaid(id);
     }

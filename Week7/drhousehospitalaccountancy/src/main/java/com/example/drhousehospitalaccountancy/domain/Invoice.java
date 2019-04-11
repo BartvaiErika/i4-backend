@@ -1,11 +1,16 @@
 package com.example.drhousehospitalaccountancy.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
-import java.util.List;
 
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 @Entity
 public class Invoice {
@@ -19,22 +24,16 @@ public class Invoice {
     @Enumerated(EnumType.STRING)
     private Kind kind;
 
-    @OneToMany(cascade = CascadeType.ALL)
     private String symptoms;
 
-    @OneToMany(cascade = CascadeType.ALL)
     private String diagnosis;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    private String provided; //(either the treatment given or the medicine suggested)
+    private String provided; //treatment or medicine
 
-    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private double cost;
 
-    @OneToOne(cascade = CascadeType.ALL)
     private Boolean paid;
 
-    @OneToOne(cascade = CascadeType.ALL)
     private LocalDateTime timestamp;
 
 }
