@@ -45,6 +45,8 @@ public class AccountantTest {
 
     @Test
     public void testBookInvoicePaid() {
+        Boolean actualPaid = accountant.bookInvoicePaid();
+        Assert.assertTrue(actualPaid);
     }
 
     @Test
@@ -54,12 +56,15 @@ public class AccountantTest {
 
     @Test
     public void testSettingInvoiceProvided(Long id, Kind kind) {
-
+       // accountant.setInvoiceProvided();
     }
 
     @Test
     public void testNextInvoiceNumber() {
-
+        Long testInvoiceNumber = accountant.nextInvoiceNumber();
+        Assert.assertFalse(testInvoiceNumber.equals(Long.valueOf(0))) ;
+        Assert.assertFalse(testInvoiceNumber.equals(testInvoiceNumber-1)) ;
+        Assert.assertNotNull(testInvoiceNumber);
     }
 
     @Test
@@ -71,6 +76,8 @@ public class AccountantTest {
         actualKind = Kind.valueOf(patientDTO.getTreatment());
         expectedKind = Kind.TREATMENT;
         Assert.assertTrue(actualKind.equals(expectedKind));
+        Assert.assertNotNull(actualKind);
+        actualKind = accountant.getKind(patientDTO);
         Assert.assertNotNull(actualKind);
     }
 
