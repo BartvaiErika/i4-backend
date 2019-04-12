@@ -1,12 +1,21 @@
 package com.example.drhousehospitalaccountancy.logic;
 
+import com.example.drhousehospitalaccountancy.domain.Invoice;
+import com.example.drhousehospitalaccountancy.domain.Kind;
+import com.example.drhousehospitalaccountancy.domain.Patient;
 import com.example.drhousehospitalaccountancy.dto.PatientDTO;
 import com.example.drhousehospitalaccountancy.repository.InvoiceRepository;
+import com.example.drhousehospitalaccountancy.repository.PatientRepository;
 import lombok.Setter;
+import org.assertj.core.api.Assertions;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import java.time.LocalDateTime;
+import java.util.UUID;
 
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.NONE;
 
@@ -20,6 +29,9 @@ class InvoiceManagerTest {
   InvoiceManager invoiceManager;
 
   @Autowired
+  PatientRepository patientRepository;
+
+  @Autowired
   Accountant accountant;
 
   @Setter
@@ -31,7 +43,24 @@ class InvoiceManagerTest {
   }
 
   @Test
-  void createNewInvoice() {
+  void createNewInvoice(String uuid) {
+    Patient patient = patientRepository.findByUuid(UUID.fromString(uuid));
+    Kind kind = accountant.getKind(patientDTO);
+    Long testInvoiceId = accountant.nextInvoiceNumber();
+
+    Invoice testInvoice = Invoice.builder()
+                                .id(testInvoiceId)
+                                .patient(patient)
+                                .kind(kind)
+                                .symptoms(patientDTO.getSymptoms())
+                                .diagnosis(patientDTO.getDiagnosis())
+                                .provided(accountant.setInvoiceProvided(testInvoiceId, kind))
+                                .cost(0.00)
+                                .paid(false)
+                                .timestamp(LocalDateTime.now()).build();
+    invoiceRepository.save(testInvoice);
+    Assertions.assertThat(testInvoice.equals(null));
+    Assert.assertNotNull(testInvoice);
 
   }
 }
