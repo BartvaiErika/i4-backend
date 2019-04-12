@@ -45,21 +45,7 @@ class InvoiceManagerTest {
 
   @Test
   void createNewInvoice(String uuid) {
-    Patient patient = patientRepository.findByUuid(UUID.fromString(uuid));
-    Kind kind = accountant.getKind(patientDTO);
-    Long testInvoiceId = accountant.nextInvoiceNumber();
-
-    Invoice testInvoice = Invoice.builder()
-                                .id(testInvoiceId)
-                                .patient(patient)
-                                .kind(kind)
-                                .symptoms(patientDTO.getSymptoms())
-                                .diagnosis(patientDTO.getDiagnosis())
-                                .provided(accountant.setInvoiceProvided(testInvoiceId, kind))
-                                .cost(0.00)
-                                .paid(false)
-                                .timestamp(LocalDateTime.now()).build();
-    invoiceRepository.save(testInvoice);
+    Invoice testInvoice = invoiceManager.createNewInvoice(uuid);
     Assertions.assertThat(testInvoice.equals(null));
     Assert.assertNotNull(testInvoice);
 

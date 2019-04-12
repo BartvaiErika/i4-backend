@@ -46,19 +46,41 @@ public class AccountantTest {
     }
 
     @Test
-    public void testBookInvoicePaid() {
-        Boolean actualPaid = accountant.bookInvoicePaid();
-        Assert.assertTrue(actualPaid);
+    public void testBookInvoicePaid(Long id) {
+        accountant.bookInvoicePaid(id);
+        Invoice actual = invoiceRepository.getOne(id);
+        Assert.assertTrue(actual.getPaid());
     }
 
     @Test
-    public void testCalculatingCosts(Long id, Kind kind) {
-
+    public void testCalculatingCosts(Long id) {
+        Kind kind = Kind.valueOf("MEDICINE");
+        accountant.calculateCosts(id, kind);
+        Double expected = 49.99;
+        Double actual = invoiceRepository.getOne(id).getCost();
+        Assert.assertTrue(actual.equals(expected));
+        Assert.assertNotNull(actual);
+        kind = Kind.valueOf("TREATMENT");
+        accountant.calculateCosts(id, kind);
+        expected = 499.99;
+        actual = invoiceRepository.getOne(id).getCost();
+        Assert.assertTrue(actual.equals(expected));
+        Assert.assertNotNull(actual);
     }
 
     @Test
-    public void testSettingInvoiceProvided(Long id, Kind kind) {
-       // accountant.setInvoiceProvided();
+    public void testSettingInvoiceProvided(Long id) {
+        Kind kind = Kind.valueOf("MEDICINE");
+        accountant.setInvoiceProvided(id, kind);
+        String expectedProvided = "MEDICINE";
+        String actualProvided = invoiceRepository.getOne(id).getProvided();
+        Assert.assertTrue(actualProvided.equals(expectedProvided));
+
+        kind = Kind.valueOf("TREATMENT");
+        accountant.setInvoiceProvided(id, kind);
+        expectedProvided = "TREATMENT";
+        actualProvided = invoiceRepository.getOne(id).getProvided();
+        Assert.assertTrue(actualProvided.equals(expectedProvided));
     }
 
     @Test

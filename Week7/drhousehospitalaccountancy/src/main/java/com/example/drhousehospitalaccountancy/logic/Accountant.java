@@ -25,9 +25,10 @@ public class Accountant {
         return invoiceRepository.findAll();
     }
 
-    public Invoice bookInvoicePaid(long id) {
+    public Invoice bookInvoicePaid(Long id) {
         Invoice paidInvoice = invoiceRepository.getOne(id);
         paidInvoice.setPaid(true);
+        invoiceRepository.save(paidInvoice);
         return paidInvoice;
     }
 
