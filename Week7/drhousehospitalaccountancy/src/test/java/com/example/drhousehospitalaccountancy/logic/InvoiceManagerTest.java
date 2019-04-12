@@ -39,6 +39,7 @@ class InvoiceManagerTest {
 
   @Before
   public void setUp() throws Exception {
+    patientRepository.deleteAll();
     invoiceRepository.deleteAll();
   }
 
