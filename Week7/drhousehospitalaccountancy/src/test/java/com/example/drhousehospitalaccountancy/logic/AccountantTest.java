@@ -41,6 +41,8 @@ public class AccountantTest {
 
     @Test
     public void testFindAll() {
+        List <Invoice> actualInvoices = accountant.findAll();
+        Assert.assertNotNull(actualInvoices);
     }
 
     @Test
