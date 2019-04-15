@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Conditionals</title>
+
+    <meta charset="UTF-8"/>
+
+    <link media="all" rel="stylesheet" th:href="@{/static/css/style.css}" type="text/css"/>
+
+</head>
+<body>
+
+<h1>Conditionals</h1>
+
+<h2 th:unless="${message == null}">Message: <span th:text="${message}"></span></h2>
+<h3 th:if="${message == 'good'}">This is very very good</h3>
+<h3 th:if="${message == 'bad'}">This is incredibly awful</h3>
+
+<h4>New message to send</h4>
+<h5>-- send 'good' or 'bad' --</h5>
+<form method="post" th:action="@{/templates/conditionals}">
+    <input autofocus="autofocus" name="message" type="text"/>
+    <button type="submit">Send</button>
+</form>
+
+</body>
+</html>

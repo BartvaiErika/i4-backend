@@ -1,0 +1,7 @@
+list:
+  message:
+    - test: Hi, I'm message1!
+    - test: Hi, I'm message2!
+    - test: Hi, I'm message3!
+    - test: Hi, I'm message4!
+    - test: Hi, I'm message5!
