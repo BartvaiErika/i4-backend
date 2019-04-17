@@ -4,4 +4,3 @@ server:
 client:
   server:
     url: http://localhost:9001/encode
-

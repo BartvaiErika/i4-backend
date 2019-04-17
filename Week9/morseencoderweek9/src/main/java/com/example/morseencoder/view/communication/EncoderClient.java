@@ -11,7 +11,7 @@ public class EncoderClient {
 
   private final RestTemplate restTemplate;
 
-  @Value("/encode")
+ // @Value("${/encode}")
   private String url;
 
   public String send(String plainText) {

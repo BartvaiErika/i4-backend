@@ -1,0 +1,4 @@
+
+todosclient:
+  server:
+      url: http://localhost:9000/todos

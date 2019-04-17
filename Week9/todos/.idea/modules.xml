@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mypersonaltodolist_week6/mypersonaltodolist.iml" filepath="$PROJECT_DIR$/mypersonaltodolist_week6/mypersonaltodolist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytodolist_week9/mytodolist_week9.iml" filepath="$PROJECT_DIR$/mytodolist_week9/mytodolist_week9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/todos.iml" filepath="$PROJECT_DIR$/.idea/todos.iml" />
+    </modules>
+  </component>
+</project>

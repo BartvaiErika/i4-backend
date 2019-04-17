@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ToDoList</title>
+    <meta charset="UTF-8"/>
+    <link media="all" rel="stylesheet" th:href="@{/static/css/style.css}" type="text/css"/>
+</head>
+<body>
+
+<h2>My personel ToDoList</h2>
+<table>
+    <tr>
+        <th align="left">ToDos</th>
+        <th></th>
+    </tr>
+    <tr th:each="todo : ${todos}">
+        <td th:text="${todo.name}">ToDo: </td>
+        <td align="right">
+            <form method="post" th:action="@{/done}">
+                <input name="name" th:value="${todo.name}" type="hidden"/>
+                <button>Done</button>
+            </form>
+        </td>
+    </tr>
+</table>
+
+<h2>Add new ToDo</h2>
+<form method="post" th:action="@{todos}" th:object="${todo}">
+    <label>Name of ToDo: </label>
+    <input th:field="*{name}" type="text"/>
+    <button type="submit">Add ToDo</button>
+</form>
+
+</body>
+</html>
