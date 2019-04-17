@@ -1,7 +1,7 @@
 package com.example.morseencoder.view.communication;
 
 import lombok.RequiredArgsConstructor;
-import lombok.Value;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
@@ -11,7 +11,7 @@ public class EncoderClient {
 
   private final RestTemplate restTemplate;
 
- // @Value("${/encode}")
+  @Value("${client.server.url}")
   private String url;
 
   public String send(String plainText) {

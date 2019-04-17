@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ToDoList</title>
+    <meta charset="UTF-8"/>
+    <link media="all" rel="stylesheet" th:href="@{/static/css/style.css}" type="text/css"/>
+</head>
+
+<body><h2>Dr. House Hospital - Accountancy</h2>
+<table>
+    <tr>
+        <th align="left">Invoices</th>
+        <th></th>
+    </tr>
+    <tr th:each="invoice : ${invoices}">
+        <td th:text="${invoice.id}">Invoiceno: </td>
+        <td align="right">
+            <form method="post" th:action="@{/paid}">
+                <input name="name" th:value="${invoice.id}" type="hidden"/>
+                <button type="submit">paid</button>
+            </form>
+        </td>
+    </tr>
+</table>
+</body></html>
