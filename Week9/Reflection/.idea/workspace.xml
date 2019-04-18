@@ -2,9 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dcb8d1f-2a18-4321-8af4-559ddfa6e6dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/admission/drhouse_admission/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admission/drhouse_admission/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../magicballs/src/main/java/com/example/magicballs/view/controller/SimpleMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../magicballs/src/main/java/com/example/magicballs/view/controller/SimpleMessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../morseencoderweek9/src/main/java/com/example/morseencoder/view/communication/EncoderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../morseencoderweek9/src/main/java/com/example/morseencoder/view/communication/EncoderClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admission/drhouse_admission/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/DrhouseadministrationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/AccountantClient .java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/PatientClient .java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/RestTemplateConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/InvoicesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/PatientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/domain/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/domain/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/resources/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/accountantssite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/patientregistration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_administration/src/test/java/com/example/drhouseadministration/DrhouseadministrationApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/DrhouseAdmissionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/communication/PatientsEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/configuration/EndpointsConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/domain/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/logic/Admission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouse_admission/src/test/java/com/example/drhouse_admission/DrhouseAdmissionApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/DrhousehospitalaccountancyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/configuration/CorsConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/configuration/RestTemplateConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/domain/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/domain/Kind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/domain/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/dto/PatientDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/endpoints/InvoicesEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/endpoints/PatientsEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/logic/Accountant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/logic/InvoiceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/repository/InvoiceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/repository/PatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/test/java/com/example/drhousehospitalaccountancy/DrhousehospitalaccountancyApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/test/java/com/example/drhousehospitalaccountancy/logic/AccountantTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/test/java/com/example/drhousehospitalaccountancy/logic/InvoiceManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhousehospital_accountancy/src/test/java/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mytodolist_week9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mytodolist_week9/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../todos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todos/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/junit-workshop-timetravelers" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/junit-workshop-timetravelers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/week4programming/reflectionweek4" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/week4programming/reflectionweek4" afterDir="false" />
@@ -19,23 +79,27 @@
     <session id="-228018605">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="5" />
-          <entry key="java" value="11" />
+          <entry key="html" value="7" />
+          <entry key="java" value="27" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="5" />
-          <entry key="JAVA" value="11" />
+          <entry key="HTML" value="7" />
+          <entry key="JAVA" value="27" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -43,7 +107,7 @@
         <counts>
           <entry key="css" value="13" />
           <entry key="html" value="339" />
-          <entry key="java" value="372" />
+          <entry key="java" value="762" />
           <entry key="yml" value="51" />
         </counts>
       </usages-collector>
@@ -51,7 +115,7 @@
         <counts>
           <entry key="CSS" value="13" />
           <entry key="HTML" value="339" />
-          <entry key="JAVA" value="372" />
+          <entry key="JAVA" value="762" />
           <entry key="YAML" value="51" />
         </counts>
       </usages-collector>
@@ -60,110 +124,38 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/PatientClient .java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-              <folding>
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/RestTemplateConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/AccountantClient .java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-              <folding>
-                <element signature="e#1084#1085#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/domain/Patient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/InvoicesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/PatientController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/domain/Kind.java">
+        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/communication/AccountantClient .java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/domain/Invoice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/communication/PatientClient .java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/domain/Patient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/communication/RestTemplateConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/controller/InvoicesController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/controller/PatientController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/domain/Invoice.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/domain/Patient.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -188,9 +180,9 @@
         <option value="$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/patientregistration.html" />
         <option value="$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/colors.html" />
         <option value="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/PatientsEndpoint.java" />
+        <option value="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/InvoicesController.java" />
         <option value="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/PatientClient .java" />
         <option value="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/AccountantClient .java" />
-        <option value="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/InvoicesController.java" />
         <option value="$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/PatientController.java" />
       </list>
     </option>
@@ -201,11 +193,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="315" />
-    <option name="y" value="208" />
-    <option name="width" value="1542" />
-    <option name="height" value="731" />
+    <option name="x" value="263" />
+    <option name="y" value="107" />
+    <option name="width" value="1657" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -215,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,25 +223,25 @@
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_administration" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_administration" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_administration" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_administration" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -252,7 +249,7 @@
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_administration" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -261,7 +258,7 @@
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_administration" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -271,7 +268,7 @@
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_administration" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -282,7 +279,7 @@
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_administration" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -294,7 +291,7 @@
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_administration" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -306,107 +303,19 @@
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-              <item name="communication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse_admission" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -414,107 +323,35 @@
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospital_accountancy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospital_accountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospital_accountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospital_accountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospital_accountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospital_accountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospital_accountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospitalaccountancy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospital_accountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospitalaccountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospital_accountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospitalaccountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousehospital_accountancy" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555508875979" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555511090676" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week8/social_network" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -551,18 +388,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555494125471</updated>
-      <workItem from="1555494127052" duration="11296000" />
+      <workItem from="1555494127052" duration="13315000" />
+      <workItem from="1555578589231" duration="4787000" />
+      <workItem from="1555595319744" duration="27000" />
+      <workItem from="1555595442636" duration="101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11296000" />
+    <option name="totallyTimeSpent" value="18230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.52068967" visible="true" weight="0.2739347" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.52068967" visible="true" weight="0.28389597" />
       <window_info id="Structure" order="1" sideWeight="0.47931033" side_tool="true" weight="0.32783642" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -589,7 +428,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32982844" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.52068967" visible="true" weight="0.2744881" />
@@ -629,165 +468,128 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/drhouse_admission/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhousehospital_accountancy/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/messages/form-message.html">
+    <entry file="file://$PROJECT_DIR$/drhouse_admission/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/drhousehospital_accountancy/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/messages/form-message.html" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/days-of-the-week.html" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/colors.html" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/static/style.css" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/PatientsEndpoint.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/RestTemplateConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/domain/Kind.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/domain/Patient.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/accountantssite.html" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/patientregistration.html" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/domain/Invoice.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/domain/Patient.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/configuration/RestTemplateConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/AccountantClient .java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/InvoicesController.java" />
+    <entry file="file://$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/logic/Accountant.java" />
+    <entry file="file://$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/logic/InvoiceManager.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/logic/Admission.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/communication/PatientsEndpoint.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/PatientClient .java" />
+    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/PatientController.java" />
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/communication/AccountantClient .java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/days-of-the-week.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/colors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/patientregistration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#690#696#0" expanded="true" />
-            <element signature="e#696#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/templates/accountantssite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/communication/PatientsEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/PatientsEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/communication/PatientClient .java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/RestTemplateConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/PatientClient .java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/AccountantClient .java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-          <folding>
-            <element signature="e#1084#1085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhousehospital_accountancy/src/main/java/com/example/drhousehospitalaccountancy/domain/Kind.java">
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/communication/RestTemplateConfiguration.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/domain/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/controller/InvoicesController.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/domain/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/controller/PatientController.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/domain/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/domain/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/InvoicesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/PatientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/domain/Patient.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Reflection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
