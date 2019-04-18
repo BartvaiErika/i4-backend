@@ -23,7 +23,8 @@ public class AccountantClient {
 
   @GetMapping
   public List<Invoice> getAllInvoices(){
-    return accountancy.findAll();
+    return //restTemplate.postForObject(url, List<Invoice>.class)
+        accountancy.findAll();
   }
 
   @PostMapping
@@ -39,3 +40,4 @@ public class AccountantClient {
   }
 
 }
+

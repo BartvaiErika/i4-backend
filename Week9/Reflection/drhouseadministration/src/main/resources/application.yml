@@ -1,3 +1,6 @@
+server:
+  port: 9000
+
 client:
   server:
     url: http://localhost:9000/
@@ -9,3 +12,7 @@ admissionclient:
 accountancyclient:
   server:
     url: http://localhost:9005/
+
+symptomsclient:
+  server:
+    url: http://localhost:9002/
