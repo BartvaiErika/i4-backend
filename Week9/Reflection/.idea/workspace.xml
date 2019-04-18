@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dcb8d1f-2a18-4321-8af4-559ddfa6e6dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/domain/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/model/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/domain/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/model/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouseadministration/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/drhouseadministration/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/controller/InvoicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/controller/InvoicesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/controller/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/model/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/model/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/junit-workshop-timetravelers" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/junit-workshop-timetravelers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/week4programming/reflectionweek4" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/week4programming/reflectionweek4" afterDir="false" />
     </list>
@@ -30,7 +31,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="10" />
-          <entry key="java" value="30" />
+          <entry key="java" value="31" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
@@ -38,7 +39,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="HTML" value="10" />
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="31" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
@@ -67,7 +68,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/configuration/RestTemplateConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
@@ -77,12 +78,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/controller/PatientController.java">
+        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/controller/PatientController.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/model/Invoice.java">
+        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/model/Invoice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
               <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
@@ -91,11 +92,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/model/Patient.java">
+        <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/model/Patient.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
@@ -291,19 +292,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouseadministration" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Reflection" type="b2602c69:ProjectViewProjectNode" />
@@ -333,7 +322,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555599105749" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555599362875" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week8/social_network" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -380,16 +369,15 @@
       <workItem from="1555494127052" duration="13315000" />
       <workItem from="1555578589231" duration="4787000" />
       <workItem from="1555595319744" duration="27000" />
-      <workItem from="1555595442636" duration="3644000" />
+      <workItem from="1555595442636" duration="3901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21773000" />
+    <option name="totallyTimeSpent" value="22030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.52068967" visible="true" weight="0.28389597" />
       <window_info id="Structure" order="1" sideWeight="0.47931033" side_tool="true" weight="0.32783642" />
@@ -482,13 +470,10 @@
     <entry file="file://$PROJECT_DIR$/drhouse_admission/src/main/java/com/example/drhouse_admission/communication/PatientsEndpoint.java" />
     <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/communication/PatientClient .java" />
     <entry file="file://$PROJECT_DIR$/drhouse_administration/src/main/java/com/example/drhouseadministration/controller/PatientController.java" />
-    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/controller/InvoicesController.java">
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/controller/InvoicesController.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/controller/PatientController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/model/Patient.java">
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/resources/templates/CreateInvoice.html">
@@ -518,13 +503,6 @@
     <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/communication/RestTemplateConfiguration.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/configuration/RestTemplateConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/communication/AccountantClient .java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -536,7 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/model/Invoice.java">
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/model/Invoice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
@@ -547,6 +525,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/controller/PatientController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/view/RestTemplateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouseadministration/src/main/java/com/example/drhouseadministration/configuration/RestTemplateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
