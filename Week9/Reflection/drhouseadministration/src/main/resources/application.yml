@@ -13,6 +13,3 @@ accountancyclient:
   server:
     url: http://localhost:9005/
 
-symptomsclient:
-  server:
-    url: http://localhost:9002/
