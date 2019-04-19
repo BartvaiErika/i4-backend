@@ -1,4 +1,4 @@
-package com.example.drhouse_admission.domain;
+package com.example.drhouseadministration.view.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +11,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Patient {
 
-  private String id;
   private String name;
   private String symptoms;
 }

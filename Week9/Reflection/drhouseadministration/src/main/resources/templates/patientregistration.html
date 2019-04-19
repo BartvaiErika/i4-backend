@@ -7,20 +7,12 @@
 </head>
 
 <body><h2>Dr. House Hospital - Patientregistration</h2>
-<table>
-    <tr><td>
-        <form method="post" th:action="@{patients}" th:object="${patient}"><label >Patientname: </label>
-        <input th:field="*{name}" type="text"/>
-        <button type="submit">Add</button>
-        </form>
-    </td></tr>
-<br>
-    <tr><td>
-        <form method="post" th:action="@{patients}" th:object="${patient}"><label">Symptoms:&nbsp;&nbsp;&nbsp </label>
-            <input th:field="*{name}" type="text"/>
+        <form method="post" th:action="@{patients}" th:object="${patient}">
+                    <label >Patientname: </label>
+                <input th:field="*{name}" type="text" size="30"/>
+                <br><br>
+                    <label>Symptoms: &nbsp;&nbsp;</label>
+                    <input th:field="*{symptoms}" type="text" size="30"/>
                 <button type="submit">Add</button>
         </form>
-    </td></tr>
-</table>
-
 </body></html>

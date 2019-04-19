@@ -3,3 +3,34 @@ h1 {
     text-align: center;
     color: blueviolet;
 }
+
+label {
+    font-size: 2em;
+    text-align: center;
+    color: greenyellow;
+}
+
+input {
+    font-size: 2em;
+    text-align: center;
+    color: red;
+    width: 10ch;
+}
+
+button {
+    font-size: 1em;
+    text-align: center;
+    color: firebrick;
+    size: auto;
+}
+
+select {
+    font-size: 2em;
+    text-align: center;
+    color: firebrick;
+    size: auto;
+}
+
+td {
+    font-size: 1em;
+}

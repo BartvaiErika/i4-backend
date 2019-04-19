@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/drhouseaccountancy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/drhouseadministration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/drhouseadmission" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/drhousebeds" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/drhousediagnoses" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/drhousepharmacy" charset="UTF-8" />
+  </component>
+</project>

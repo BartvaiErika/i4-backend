@@ -3,5 +3,17 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/drhouseadmission/pom.xml" />
+        <option value="$PROJECT_DIR$/drhouseaccountancy/pom.xml" />
+        <option value="$PROJECT_DIR$/drhouseadministration/pom.xml" />
+        <option value="$PROJECT_DIR$/drhousediagnoses/pom.xml" />
+        <option value="$PROJECT_DIR$/drhousepharmacy/pom.xml" />
+        <option value="$PROJECT_DIR$/drhousebeds/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

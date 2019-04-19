@@ -1,4 +1,4 @@
-package com.example.mytodolist_week9.configuration;
+package com.example.drhouseadministration.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

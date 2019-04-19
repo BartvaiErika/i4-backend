@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Reflection.iml" filepath="$PROJECT_DIR$/.idea/Reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drhouseadmission/drhouse_admission.iml" filepath="$PROJECT_DIR$/drhouseadmission/drhouse_admission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drhousebeds/drhouse_beds.iml" filepath="$PROJECT_DIR$/drhousebeds/drhouse_beds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drhouseadministration/drhouseadministration.iml" filepath="$PROJECT_DIR$/drhouseadministration/drhouseadministration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drhousediagnoses/drhousediagnoses.iml" filepath="$PROJECT_DIR$/drhousediagnoses/drhousediagnoses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drhouseaccountancy/drhousehospitalaccountancy.iml" filepath="$PROJECT_DIR$/drhouseaccountancy/drhousehospitalaccountancy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drhousepharmacy/pharmacy.iml" filepath="$PROJECT_DIR$/drhousepharmacy/pharmacy.iml" />
     </modules>
   </component>
 </project>

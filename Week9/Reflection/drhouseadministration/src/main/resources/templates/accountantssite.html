@@ -9,15 +9,18 @@
 <body><h2>Dr. House Hospital - Accountancy</h2>
 <table>
     <tr>
-        <th align="left">Invoices</th>
-        <th></th>
+        <th align="left"><h3>Invoices</h3></th>
     </tr>
     <tr th:each="invoice : ${invoices}">
-        <td th:text="${invoice.id}">Invoiceno: </td>
+        <td th:text="${invoice.id}"><strong>InvoiceNO</strong></td>
+        <td th:text="${invoice.patient.name}"><strong>Patient</strong></td>
+        <td th:text="${invoice.provided}"><strong>Service</strong></td>
+        <td th:text="${invoice.cost}"><strong>Costs</strong></td>
+        <td th:text="${invoice.paid}"><strong>Paid</strong></td>
         <td align="right">
             <form method="post" th:action="@{/paid}">
-                <input name="name" th:value="${invoice.id}" type="hidden"/>
-                <button type="submit">paid</button>
+                <input name="id" th:value="${invoice.id}" type="hidden"/>
+                <button type="submit">PAID</button>
             </form>
         </td>
     </tr>
