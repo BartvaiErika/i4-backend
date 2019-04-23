@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dcb8d1f-2a18-4321-8af4-559ddfa6e6dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/java/com/example/hotelroomsafe/communication/EveryoneEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/java/com/example/hotelroomsafe/communication/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/java/com/example/hotelroomsafe/communication/UserEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/java/com/example/hotelroomsafe/configuration/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/java/com/example/hotelroomsafe/configuration/WebMvcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/resources/static/static/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/resources/templates/hotelsafe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10/pirates-of-code-bean/src/main/java/communication/CarinaEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10/pirates-of-code-bean/src/main/java/communication/JackSparrowEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10/pirates-of-code-bean/src/main/java/communication/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10/pirates-of-code-bean/src/main/java/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10/pirates-of-code-bean/src/main/java/configuration/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10/pirates-of-code-bean/src/main/resources/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10/pirates-of-code-bean/src/main/resources/templates/diary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10/pirates-of-code-bean/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10/pirates-of-code-bean/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10/pirates-of-code-bean/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/java/com/example/hotelroomsafe/communication/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/java/com/example/hotelroomsafe/communication/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/java/com/example/hotelroomsafe/communication/UserEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/java/com/example/hotelroomsafe/communication/UserEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/resources/templates/hotelsafe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week10/hotel-room-safe/src/main/resources/templates/hotelsafe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week10/websecurity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week10/websecurity/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/junit-workshop-timetravelers" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/junit-workshop-timetravelers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/week4programming/reflectionweek4" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaprogramming_before_specialisation/week4programming/reflectionweek4" afterDir="false" />
@@ -32,7 +37,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -41,7 +46,7 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -267,7 +272,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -402,6 +406,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -517,11 +522,12 @@
       <workItem from="1556009137655" duration="1018000" />
       <workItem from="1556012771549" duration="29000" />
       <workItem from="1556021947499" duration="31000" />
+      <workItem from="1556022055778" duration="633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40033000" />
+    <option name="totallyTimeSpent" value="40666000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -533,9 +539,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="927" height="1053" extended-state="4" />
+    <frame x="67" y="27" width="917" height="1053" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.52068967" visible="true" weight="0.6027242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.52068967" visible="true" weight="0.6016073" />
       <window_info id="Structure" order="1" sideWeight="0.47931033" side_tool="true" weight="0.32783642" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

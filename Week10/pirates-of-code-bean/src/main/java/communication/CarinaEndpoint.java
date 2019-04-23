@@ -1,4 +1,4 @@
-package com.example.hotelroomsafe.communication;
+package communication;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,12 +8,12 @@ import javax.annotation.security.RolesAllowed;
 
 @RestController
 @RequestMapping("/user")
-public class UserEndpoint {
+public class CarinaEndpoint {
 
   @GetMapping
   @RolesAllowed("USER")
   String message() {
-    return "Welcome into your hotelsafe!";
+    return "I destroy the Trident and release the Flying Dutchman from its curse and redirect to ...!";
   }
 
 }
