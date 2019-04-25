@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.security.RolesAllowed;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/")
 public class UserEndpoint {
 
   @GetMapping

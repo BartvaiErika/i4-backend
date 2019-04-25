@@ -16,7 +16,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     http
         .authorizeRequests()
         .requestMatchers(PathRequest.toStaticResources().atCommonLocations()).permitAll()
-        .antMatchers("/").permitAll()
         .anyRequest().fullyAuthenticated()
         .and()
         .formLogin().loginPage("/login").failureUrl("/login?error").permitAll()

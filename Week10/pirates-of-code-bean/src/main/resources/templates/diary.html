@@ -6,13 +6,33 @@
 <body>
 <h1>Pirates of code bean</h1>
 <p><strong>Diary</strong></p>
-
-<form method="post" th:action="@{/logout}">
-    <ul><li>destroy the Trident></li>
+    <ul><li>destroy the Trident</li>
         <li>release the Flying Dutchman from its curse</li>
         <li>and redirect to ...</li></ul>
     <br><br>
-    <button>Sign Out</button>
-</form>
-</html>
-</body>
+    <td align="right">
+        <div th:if="${trident.destroyed == false}">
+            <form method="post" th:action="@{/diary}">
+                <button onclick="myFunction()">DESTROY NOW</button>
+                    <script>
+                        function myFunction() {
+                            window.alert("TRIDENT IS SUCCESSFULLY DESTROYED!");
+                }
+                    </script>
+                </form>
+        </div>
+    </td>
+
+    <br>
+    <p th:if="${trident.destroyed == true}">The Flying Dutchman is released from its curse!</p>
+    <br>
+
+<a th:href="@{/}">Go to homesite!</a><br> <br>
+
+<form method="post th:action="@{/logout}"><button>Sign Out</button></form>
+<br><br>
+</body></html>
+
+
+
+

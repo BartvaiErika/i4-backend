@@ -1,0 +1,15 @@
+server:
+  port: 9000
+
+client:
+  server:
+    url: http://localhost:9000/
+
+admissionclient:
+  server:
+    url: http://localhost:9001/
+
+accountancyclient:
+  server:
+    url: http://localhost:9005/
+

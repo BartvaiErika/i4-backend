@@ -16,7 +16,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     http
         .authorizeRequests()
         .requestMatchers(PathRequest.toStaticResources().atCommonLocations()).permitAll()
-        .antMatchers("/").permitAll()
         .anyRequest().fullyAuthenticated()
         .and()
         .formLogin().loginPage("/login").failureUrl("/login?error").permitAll()
@@ -29,7 +28,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     PasswordEncoder encoder = passwordEncoder();
     auth
         .inMemoryAuthentication()
-        .withUser("user").password(encoder.encode("user")).roles("USER");
+        .withUser("guest").password(encoder.encode("secret")).roles("USER");
   }
 
   @Bean

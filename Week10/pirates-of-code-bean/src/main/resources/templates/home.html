@@ -1,16 +1,22 @@
 <!DOCTYPE html>
+
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>dead-men-tell-no-tales</title>
+    <title>Security</title>
 </head>
 <body>
-<h1>Dead men tell no tales</h1>
-<p>You are welcome in the thesaury of ALi Baba: </p>
-<li>diamond</li>
-<li>gold</li>
-<li>silver</li><br>
+<h1>Welcome to this everyones homepage!</h1>
+<p>This is everyones page, such as Jack Sparrow!</p>
+<p th:if="${trident.destroyed == false}">Flying Dutchman is cursed!</p>
+<p th:if="${trident.destroyed == true}">Flying Dutchman is released from its curse!</p>
+
+<a th:ahref="@{/diary}">Please go to diary page to get help of Carina!</a>
+
+<br/><br/>
+
 <form method="post" th:action="@{/logout}">
-    <button>Sign Out</button>
+    <button>Logout</button>
 </form>
-</body>
-</html>
+
+</body></html>
+

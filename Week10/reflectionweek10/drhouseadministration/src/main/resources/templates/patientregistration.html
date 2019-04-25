@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ToDoList</title>
+    <meta charset="UTF-8"/>
+    <link media="all" rel="stylesheet" th:href="@{/static/css/style.css}" type="text/css"/>
+</head>
+
+<body><h2>Dr. House Hospital - Patientregistration</h2>
+        <form method="post" th:action="@{patients}" th:object="${patient}">
+                    <label >Patientname: </label>
+                <input th:field="*{name}" type="text" size="30"/>
+                <br><br>
+                    <label>Symptoms: &nbsp;&nbsp;</label>
+                    <input th:field="*{symptoms}" type="text" size="30"/>
+                <button type="submit">Add</button>
+        </form>
+</body></html>
