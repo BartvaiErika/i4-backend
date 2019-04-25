@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Diary</title>
+</head>
+<body>
+<br><br>
+<div th:if="${trident.status == false}">
+    <form method="post" th:action="@{/diary}">
+        <button>Destroy trident!</button>
+    </form>
+</div><br>
+<p th:if="${trident.status == true}">The curse over the Flying Dutchman is removed!</p>
+<p th:if="${trident.status == false}">The Flying Dutchman is still cursing!</p>
+<br/>
+<a th:href="@{/}">Go back to home page</a><br>
+<form method="post" th:action="@{/logout}">
+    <button>Sign Out</button>
+</form>
+
+
+</body>
+</html>
+

@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>pirates-of-code-bean</artifactId>
+    <artifactId>piratesofcodbean2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pirates-of-code-bean</name>
-    <description>Pirates of code bean - Excercise 3 - Week3</description>
+    <name>piratesofcodbean2</name>
+    <description>Excerciese 3 - Week10 - Release2</description>
 
     <properties>
         <java.version>11</java.version>

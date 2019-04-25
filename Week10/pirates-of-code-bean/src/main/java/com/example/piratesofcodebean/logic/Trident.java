@@ -1,4 +1,4 @@
-package com.example.piratesofcodebean.domain;
+package com.example.piratesofcodebean.logic;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,5 +9,5 @@ public class Trident {
 
   @Getter
   @Setter
-  private Boolean destroyed;
+  private Boolean status;
 }

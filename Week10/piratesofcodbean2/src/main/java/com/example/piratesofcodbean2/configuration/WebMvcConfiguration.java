@@ -1,4 +1,4 @@
-package com.example.piratesofcodebean.configuration;
+package com.example.piratesofcodbean2.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

@@ -1,22 +1,20 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Security</title>
 </head>
 <body>
-<h1>Welcome to this everyones homepage!</h1>
-<p>This is everyones page, such as Jack Sparrow!</p>
-<p th:if="${trident.destroyed == false}">Flying Dutchman is cursed!</p>
-<p th:if="${trident.destroyed == true}">Flying Dutchman is released from its curse!</p>
+<h1>Welcome to pirates!</h1>
 
-<a th:ahref="@{/diary}">Please go to diary page to get help of Carina!</a>
+<p th:if="${trident.status == false}">Flying Dutchman is cursing.</p>
+<p th:if="${trident.status == true}">Flying Dutchman is released from its curse!</p><br>
 
-<br/><br/>
+<a th:href="@{/diary}">Please go to diary page to get help of Carina!</a>
 
+<br><br>
 <form method="post" th:action="@{/logout}">
-    <button>Logout</button>
+    <button>Logout</button><br>
 </form>
-
 </body></html>
-

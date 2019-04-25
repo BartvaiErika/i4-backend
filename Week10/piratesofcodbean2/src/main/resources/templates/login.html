@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Login to the pirates</title>
+    <title>Welcome to Jack Sparrow Page</title>
 </head>
 <body>
-<p th:if="${param.logout}">You are logged out!</p>
-<p th:if="${param.error}">Login mistake! Please try it again!</p><br>
-<h2>Login with Username and Password</h2>
+
+<h3>Login to pirates:</h3>
 <form method="post" th:action="@{/login}">
     <fieldset>
         <input autofocus="autofocus" name="username" placeholder="Username" type="text" value=""/>
         <input name="password" placeholder="Password" type="password"/>
-    </fieldset>
+    </fieldset><br>
     <button>Login</button>
 </form>
 
-</body>
-</html>
+<p th:if="${param.logout}">You are logged out</p>
+<p th:if="${param.error}">Login mistake, please try it again!</p>
 
+</body></html>

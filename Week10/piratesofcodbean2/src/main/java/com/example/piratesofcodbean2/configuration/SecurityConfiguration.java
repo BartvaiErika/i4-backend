@@ -1,4 +1,4 @@
-package com.example.piratesofcodebean.configuration;
+package com.example.piratesofcodbean2.configuration;
 
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;
@@ -41,3 +41,4 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
   }
 
 }
+

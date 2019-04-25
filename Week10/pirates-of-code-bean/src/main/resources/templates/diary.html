@@ -8,30 +8,29 @@
 <p><strong>Diary</strong></p>
     <ul><li>destroy the Trident</li>
         <li>release the Flying Dutchman from its curse</li>
-        <li>and redirect to ...</li></ul>
+        <li>and redirect to hone</li></ul>
     <br><br>
-    <td align="right">
-        <div th:if="${trident.destroyed == false}">
+        <div th:if="${trident.status == false}">
             <form method="post" th:action="@{/diary}">
                 <button onclick="myFunction()">DESTROY NOW</button>
-                    <script>
-                        function myFunction() {
-                            window.alert("TRIDENT IS SUCCESSFULLY DESTROYED!");
-                }
-                    </script>
+                <script language="javascript" type="text/javascript">
+                    function myFunction() {
+                        window.alert("TRIDENT IS SUCCESSFULLY DESTROYED!");
+                    }
+                </script>
                 </form>
         </div>
-    </td>
-
     <br>
-    <p th:if="${trident.destroyed == true}">The Flying Dutchman is released from its curse!</p>
+        <p th:if="${trident.status == true}">The curse over the Flying Dutchman is removed!</p>
+        <p th:if="${trident.status == false}">The Flying Dutchman is still cursing!</p>
     <br>
 
-<a th:href="@{/}">Go to homesite!</a><br> <br>
+<a th:href="@{/}">Go back to home!</a><br> <br>
 
 <form method="post th:action="@{/logout}"><button>Sign Out</button></form>
 <br><br>
 </body></html>
+
 
 
 

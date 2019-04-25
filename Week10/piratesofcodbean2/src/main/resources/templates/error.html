@@ -1,8 +1,7 @@
-
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Security mistake</title>
+    <title>Secure page</title>
 <body>
 <h1>Error</h1>
 <p>
@@ -10,9 +9,8 @@
         th:text="${status}">500</span>).
 </p>
 <div>
-    You are note allowed to access the diary! Please contact the operator with the above information.
-</div>
-<br>
+    <strong>Please contact Carina to get some help!</strong>>
+</div><br>
 <a th:href="@{/}">Go back to home page</a>
 </body>
 </html>
