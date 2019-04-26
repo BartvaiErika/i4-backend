@@ -8,7 +8,7 @@ import javax.annotation.security.RolesAllowed;
 
 @RestController
 @RequestMapping("/")
-public class UserEndpoint {
+public class AccountantEndpoint {
 
   @GetMapping
   @RolesAllowed("ACCOUNTANT")
