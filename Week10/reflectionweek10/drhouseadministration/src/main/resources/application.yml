@@ -13,3 +13,5 @@ accountancyclient:
   server:
     url: http://localhost:9005/
 
+paid:
+  url: ${invoices.url}/{id}/paid

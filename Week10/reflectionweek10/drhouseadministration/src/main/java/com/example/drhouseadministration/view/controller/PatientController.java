@@ -25,7 +25,7 @@ public class PatientController {
     }
 
     @PostMapping
-    String post(Patient patient, BindingResult result) {
+    String post(@Valid Patient patient, BindingResult result) {
         if (result.hasErrors()) {
             return page();
         }
@@ -34,7 +34,3 @@ public class PatientController {
     }
 
 }
-
-
-
-
