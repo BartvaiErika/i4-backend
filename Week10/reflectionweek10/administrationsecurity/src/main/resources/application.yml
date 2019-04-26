@@ -1,2 +1,6 @@
 server:
   port: 9000
+
+accountancyclient:
+  server:
+    url: http://localhost:9005/
