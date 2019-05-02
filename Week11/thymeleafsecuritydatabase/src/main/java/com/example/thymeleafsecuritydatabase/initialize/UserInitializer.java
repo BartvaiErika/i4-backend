@@ -1,5 +1,9 @@
 package com.example.thymeleafsecuritydatabase.initialize;
 
+
+
+import com.example.codiattissecretorder.persistence.domain.User;
+import com.example.codiattissecretorder.persistence.repository.UserRepository;
 import com.example.thymeleafsecuritydatabase.persistence.domain.User;
 import com.example.thymeleafsecuritydatabase.persistence.repository.UserRepository;
 import org.springframework.boot.ApplicationRunner;

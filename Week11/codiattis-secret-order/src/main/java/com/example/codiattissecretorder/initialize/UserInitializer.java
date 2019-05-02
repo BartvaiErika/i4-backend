@@ -15,21 +15,44 @@ public class UserInitializer {
   @Bean
   ApplicationRunner initializeUser(PasswordEncoder encoder, UserRepository repository) {
     return args -> {
-      User user = createUser(encoder);
-      if (repository.existsByUsername(user.getUsername())) {
+      User admin = User.builder()
+                       .name("Chief Coder")
+                       .username("user")
+                       .password(encoder.encode("secret"))
+                       .isAdmin(true)
+                       .authorities(Set.of("ADMIN"))
+                       .build();
+
+      if (repository.existsByUsername(admin.getUsername())) {
         return;
       }
-      repository.save(user);
+      repository.save(admin);
     };
   }
 
-  private User createUser(PasswordEncoder encoder) {
-    return User.builder()
-               .name("Mr. User")
-               .username("user")
-               .password(encoder.encode("user"))
-               .authorities(Set.of("USER"))
-               .build();
-  }
+//  private User createUser(PasswordEncoder encoder) {
+//    return User.builder()
+//               .name("Chief Coder")
+//               .username("user")
+//               .password(encoder.encode("secret"))
+//               .authorities(Set.of("ADMIN"))
+//               .build();
+//  }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
