@@ -37,8 +37,6 @@ public class User {
 
   private String password;
 
-  private Boolean isAdmin;
-
   @ElementCollection(fetch = EAGER)
   private Set<String> authorities = new HashSet<>();
 
