@@ -28,11 +28,11 @@ public class UserInitializer {
 //    };
 //  }
 
-  private User createUser(PasswordEncoder encoder) {
+  public User createUser(PasswordEncoder passwordEncoder) {
     return User.builder()
                .name("Mr. User")
                .username("user")
-               .password(encoder.encode("secret"))
+               .password(passwordEncoder.encode("secret"))
                .isAdmin(false)
                .authorities(Set.of("USER"))
                .build();
