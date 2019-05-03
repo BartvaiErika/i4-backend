@@ -1,1 +1,2 @@
-
+recipes:
+  url: http://localhost:9000/recipes

@@ -1,31 +1,28 @@
 package com.example.lechef.persistence;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.List;
 
 @Data
-@Entity
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Recipe {
 
   @Id
   @GeneratedValue
   private Long id;
 
-  @Column(unique=true)
   private String name;
-
-  @OneToOne
   private String type;
-
-  @OneToMany
   private String label;
-
-  @OneToOne
   private String origin;
 
-  @ManyToMany
-  private List<Ingrediment> ingrediments;
+  private List<Ingredient> ingredients;
 
 }
