@@ -1,2 +1,0 @@
-# morseencoder
-Using continous integration
